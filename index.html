@@ -4,15 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ferdous Zihad Portfolio</title>
+    <title>Mahbuba Rahman Chowdhury Muna | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="styles/portfolio.css">
 </head>
@@ -22,39 +19,43 @@
     <header>
         <nav class="container">
             <div class="logo">
-                <h2>M<span class="color-red">u</span>na</h2>
+                <h2>M<span class="color-accent">u</span>na</h2>
             </div>
 
             <ul class="menu">
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Blog</a></li>
-                <li> <button class="btn">Hire me</button></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#connect">Connect</a></li>
+                <li><button class="btn btn-primary">Hire me</button></li>
             </ul>
         </nav>
 
-        <section id="banner">
+        <section id="banner" class="container">
             <div class="banner-content">
-                <h2>Hi, I am</h2>
-                <h1>Mahbuba rahman</h1>
-                <p>Nothing is impossible if you work hard for something.</p>
-                <div>
-                    <button class="btn"><i class="fa-solid fa-download"></i> Download CV</button>
-                    <button class="btn"><i class="fa-solid fa-phone"></i> Contact</button>
+                <h2>Hi there! 👋 I'm</h2>
+                <h1>Mahbuba Rahman Chowdhury Muna</h1>
+                <p class="subtitle">Full Stack Web Developer | CSE Undergraduate | AI & ML Research Enthusiast</p>
+                <p class="description">I turn ideas into elegant real-world projects, crafting beautiful user experiences with the MERN stack while exploring modern AI, ML, and web architectures.</p>
+                <div class="banner-actions">
+                    <button class="btn btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+                    <a href="#connect" class="btn btn-secondary"><i class="fa-solid fa-envelope"></i> Let's Chat</a>
                 </div>
             </div>
             <div class="banner-image">
-                <img src="images/Untitled_design__2_-removebg-preview.png" alt="">
+                <img src="images/Untitled_design__2_-removebg-preview.png" alt="Mahbuba Rahman Chowdhury Muna">
             </div>
         </section>
-
     </header>
 
     <section id="about">
         <div class="about-container container">
             <div class="section-heading">
-                <h2>About ME</h2>
-                <p>I am a dedicated student and aspiring developer with a deep fascination for how technology connects the world. My journey is driven by a blend of technical curiosity and a commitment to solving real-world challenges through research and code..</p>
+                <h2>About Me</h2>
+                <p>I'm a Computer Science & Engineering undergraduate who enjoys building full-stack web applications and learning new technologies along the way. I love turning ideas into real projects, whether it's a web application, a dashboard, or something that solves an everyday problem.</p>
+                <p style="margin-top: 15px;">At the moment, I'm focused on improving my skills in the MERN stack and exploring modern web development practices. I'm always trying to write cleaner code, build better user experiences, and learn something new with every project.</p>
             </div>
+            
             <div class="about-info">
                 <div class="info-card">
                     <p>Name:</p>
@@ -62,16 +63,45 @@
                 </div>
                 <div class="info-card">
                     <p>Email:</p>
-                    <h4>muna@gmail.com</h4>
+                    <h4>moonarahman2003@gmail.com</h4>
                 </div>
                 <div class="info-card">
-                    <p>Date of birth:</p>
-                    <h4>18 November 2003</h4>
+                    <p>Education:</p>
+                    <h4>B.Sc. in CSE (2022 - 2027)</h4>
                 </div>
                 <div class="info-card">
                     <p>From:</p>
-                    <h4>Sylhet,Bangladesh</h4>
+                    <h4>Sylhet, Bangladesh</h4>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="activities" class="container">
+        <div class="section-heading">
+            <h2>Current Activities & Focus</h2>
+            <p>What I am actively exploring, coding, and building right now.</p>
+        </div>
+        <div class="activities-grid">
+            <div class="activity-card">
+                <div class="icon-box"><i class="fa-solid fa-rocket"></i></div>
+                <h3>Next.js & React</h3>
+                <p>Exploring modern server-side architectures, server actions, and deep reactive systems.</p>
+            </div>
+            <div class="activity-card">
+                <div class="icon-box"><i class="fa-solid fa-layer-group"></i></div>
+                <h3>Full-Stack MERN</h3>
+                <p>Building projects complete with robust user authentication, role-based controls, and seamless payment flows.</p>
+            </div>
+            <div class="activity-card">
+                <div class="icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>Developer Webspace</h3>
+                <p>Constructing a complex, interactive web platform tailored specifically for creators and modern developers.</p>
+            </div>
+            <div class="activity-card">
+                <div class="icon-box"><i class="fa-solid fa-brain"></i></div>
+                <h3>AI, ML & Research</h3>
+                <p>Conducting academic research on education while implementing Machine Learning pipelines to crack everyday complications.</p>
             </div>
         </div>
     </section>
@@ -79,102 +109,111 @@
     <section id="skills">
         <div class="skills-container container">
             <div class="section-heading">
-                <h2>What I do</h2>
-                <p>I am still a student. But i have to make project for my university course so i have basic knowledge of web development.</p>
+                <h2>Technical Skills</h2>
+                <p>The specialized stack and development workflows I implement into web solutions.</p>
             </div>
 
-            <div class="skill-box">
-                <div class="skill-card">
-                    <img src="images/icons/java.png" alt="">
-                    <h3>Java</h3>
+            <div class="skills-category-group">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-badge-group">
+                        <span class="badge"><i class="fa-brands fa-html5 color-html"></i> HTML5</span>
+                        <span class="badge"><i class="fa-brands fa-css3-alt color-css"></i> CSS3</span>
+                        <span class="badge"><i class="fa-brands fa-js color-js"></i> JavaScript</span>
+                        <span class="badge"><i class="fa-brands fa-react color-react"></i> React</span>
+                        <span class="badge"><i class="fa-solid fa-n color-next"></i> Next.js</span>
+                        <span class="badge"><i class="fa-solid fa-wind color-tailwind"></i> Tailwind CSS</span>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <img src="images/icons/letter-c.png" alt="">
-                    <h3>C</h3>
+
+                <div class="skill-category">
+                    <h3>Backend & Database</h3>
+                    <div class="skill-badge-group">
+                        <span class="badge"><i class="fa-brands fa-node-js color-node"></i> Node.js</span>
+                        <span class="badge"><i class="fa-solid fa-server color-express"></i> Express.js</span>
+                        <span class="badge"><i class="fa-solid fa-database color-mongo"></i> MongoDB</span>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <img src="images/icons/python.png" alt="">
-                    <h3>Python</h3>
-                </div>
-                <div class="skill-card">
-                    <img src="images/icons/c-logo.png" alt="">
-                    <h3>C++</h3>
+
+                <div class="skill-category">
+                    <h3>Engineering Core & Tools</h3>
+                    <div class="skill-badge-group">
+                        <span class="badge">C / C++</span>
+                        <span class="badge"><i class="fa-brands fa-python color-python"></i> Python</span>
+                        <span class="badge"><i class="fa-brands fa-git-alt color-git"></i> Git & GitHub</span>
+                        <span class="badge"><i class="fa-solid fa-code color-vs"></i> VS Code</span>
+                        <span class="badge"><i class="fa-brands fa-figma color-figma"></i> Figma</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-
     <section id="resume">
         <div class="section-heading">
-            <h2>A summary of My Resume</h2>
+            <h2>Education History</h2>
         </div>
 
         <div class="resume-container container">
             <div class="education">
-                <h2 class="section-title">My Education</h2>
                 <div class="resume-card">
-                    <h3 class="card-title">SSC</h3>
-                    <p class="card-info">Govt Agragami Girls High School and College /2015-2020</p>
+                    <div class="card-header">
+                        <h3 class="card-title">Bachelor in Computer Science & Engineering</h3>
+                        <span class="card-date">2022 - 2027</span>
+                    </div>
+                    <p class="card-info">Metropolitan University</p>
+                    <p class="card-text">Fluent in foundational programming languages like C, C++, and Python. Currently researching emerging educational technologies and advancing technical application layers.</p>
                 </div>
-                <hr>
                 <div class="resume-card">
-                    <h3 class="card-title">HSC</h3>
-                    <p class="card-info">Sylhet Govt Womens College / 2020 - 2022</p>
-                    
+                    <div class="card-header">
+                        <h3 class="card-title">HSC (Higher Secondary Certificate)</h3>
+                        <span class="card-date">2020 - 2022</span>
+                    </div>
+                    <p class="card-info">Sylhet Govt Women's College</p>
                 </div>
-                <hr>
                 <div class="resume-card">
-                    <h3 class="card-title">Bachelor in Computer Science & Engineering</h3>
-                    <p class="card-info">Metropolitan University / 2022 - 2027</p>
-                    <p class="card-text">Fluent in c,c++,python. Also have working knowledge in java, html , css, sql</p>
+                    <div class="card-header">
+                        <h3 class="card-title">SSC (Secondary School Certificate)</h3>
+                        <span class="card-date">2015 - 2020</span>
+                    </div>
+                    <p class="card-info">Govt Agragami Girls' High School and College</p>
                 </div>
-                <hr>
-
             </div>
-            
-
         </div>
 
-        <div class="text-center">
-
-            <button class="btn"><i class="fa-solid fa-download"></i> Download CV</button>
+        <div class="text-center" style="margin-top: 30px;">
+            <button class="btn btn-primary"><i class="fa-solid fa-download"></i> Download Full Resume</button>
         </div>
-
     </section>
 
-
-    <footer>
+    <footer id="connect">
         <section class="footer-container container">
             <div class="social">
-                <h2>Lets Connect</h2>
-                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M,
-                    Monday through Friday.</p>
+                <h2>Let's Connect 🌐</h2>
+                <p>Feel free to reach out to collaborate on MERN projects, ask about my research papers, or just discuss anything web ecosystem or AI related!</p>
 
                 <div class="icons">
-                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
-                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
-                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                    <a href="https://github.com/Muna-Rahman" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/muna-rahman-chowdhury-5961a3378" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:moonarahman2003@gmail.com" aria-label="Gmail"><i class="fa-solid fa-envelope"></i></a>
                 </div>
             </div>
+            
             <form class="form">
-                <h2>Let’s Message me</h2>
-                <div class="">
-                    <input type="text" name="" id="" placeholder="Your Name">
+                <h2>Send Me a Message</h2>
+                <div>
+                    <input type="text" placeholder="Your Name" required>
                 </div>
-                <div class="">
-                    <input type="text" name="" id="" placeholder="Your Email">
+                <div>
+                    <input type="email" placeholder="Your Email" required>
                 </div>
-                <div class="">
-                    <textarea rows="10" name="" id="" placeholder="Message"></textarea>
+                <div>
+                    <textarea rows="6" placeholder="Your Message" required></textarea>
                 </div>
-                <input class="btn" type="submit" value="Submit">
+                <button class="btn btn-primary" type="submit">Submit Message <i class="fa-solid fa-paper-plane"></i></button>
             </form>
         </section>
     </footer>
 
-
-
 </body>
-
 </html>
