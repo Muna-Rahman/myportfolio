@@ -3,174 +3,236 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahbuba Rahman Chowdhury Muna | Portfolio</title>
+    <title>Muna Rahman | Full Stack Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body class="font-open-sans">
+<body class="portfolio-root">
 
-    <header class="container">
-        <nav>
-            <div class="logo">
-                <h2>M<span class="gradient-text">u</span>na</h2>
+    <div class="ambient-wave"></div>
+
+    <header class="navbar-wrapper">
+        <nav class="nav-container container">
+            <div class="nav-logo">
+                <a href="#">Muna<span class="accent-dot">.</span></a>
             </div>
-            <ul class="menu">
+            <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#activities">Activities</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#connect">Connect</a></li>
-                <li><button class="btn btn-primary">Hire Me</button></li>
             </ul>
+            <div class="nav-action">
+                <a href="#connect" class="action-btn-primary">Let's Talk</a>
+            </div>
         </nav>
-
-        <section id="banner">
-            <div class="banner-content">
-                <h2>Welcome to my space</h2>
-                <h1>Hi, I'm <span class="gradient-text">Mahbuba Rahman</span></h1>
-                <p class="subtitle">Full Stack Web Developer | CSE Undergraduate | AI & ML Research Enthusiast</p>
-                <p class="description">I design high-performance MERN web ecosystems and integrate clean frontend frameworks with scalable database architectures, constantly updating my codebases for optimized runtime delivery.</p>
-                <div class="banner-actions">
-                    <button class="btn btn-primary"><i class="fa-solid fa-arrow-down-long"></i> Get Resume</button>
-                    <a href="#connect" class="btn btn-secondary">Contact Me</a>
-                </div>
-            </div>
-            <div class="banner-image">
-                <img src="images/Untitled_design__2_-removebg-preview.png" alt="Mahbuba Rahman Chowdhury Muna">
-            </div>
-        </section>
     </header>
 
+    <section class="hero-section container">
+        <div class="hero-content">
+            <div class="status-badge">
+                <span class="pulse-indicator"></span> Always learning &amp; coding
+            </div>
+            <h1 class="hero-title">
+                Hi, I'm Muna. <br>
+                I build things and <em>learn as I go.</em>
+            </h1>
+            <p class="hero-subtitle">
+                CSE Undergraduate &bull; Full Stack Learner &bull; AI Research Enthusiast
+            </p>
+            <p class="hero-description">
+                I'm a Computer Science student who loves trying out new technologies. Most of my projects are hands-on experiments where I break things, fix them, and figure out how the MERN stack and machine learning fit together.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="action-btn-primary">See what I've built</a>
+                <a href="#about" class="action-btn-secondary">My journey</a>
+            </div>
+        </div>
+        <div class="hero-avatar-area">
+            <div class="avatar-backing">
+                <img src="images/Untitled_design__2_-removebg-preview.png" alt="Muna Rahman" class="avatar-image">
+            </div>
+        </div>
+    </section>
+
     <main>
-        <section id="about" class="container">
-            <div class="glass-panel about-container">
-                <div class="section-heading">
-                    <h2>About Me</h2>
-                    <p>I build dynamic responsive web solutions, standardizing scalable architectures while driving academic analysis inside modern AI and ML fields.</p>
+        
+        <section id="about" class="container section-padding">
+            <div class="content-panel about-grid">
+                <div class="about-summary">
+                    <span class="section-tagline">My Journey</span>
+                    <h2 class="section-title">A bit about <em>how I started</em></h2>
+                    <p class="about-text">
+                        I am currently studying Computer Science &amp; Engineering. For me, programming isn't just about passing courses—it's about the excitement of taking a random idea from my head and making it actually work on a screen. Every project is a new puzzle.
+                    </p>
+                    <p class="about-text">
+                        Right now, I am spending a lot of my time diving into React patterns and figuring out backend integrations with Next.js. I'm definitely still learning, but with every bug I encounter and resolve, my code gets a little cleaner and my apps get a little smoother.
+                    </p>
                 </div>
-                <p>I'm a Computer Science & Engineering undergraduate focusing on modern implementation of the full-stack MERN footprint. I love mapping structural clean code abstractions to interactive UI layers that fulfill user experience patterns and handle complex tasks safely.</p>
-                
-                <div class="about-info">
-                    <div class="info-card">
-                        <p>Specialization</p>
-                        <h4>Full-Stack MERN</h4>
+                <div class="about-metrics">
+                    <div class="metric-card">
+                        <span class="metric-accent"><i class="fa-solid fa-code"></i></span>
+                        <h4>Full-Stack Practice</h4>
+                        <p>Figuring out client-server connections using React, Node.js, and MongoDB databases.</p>
                     </div>
-                    <div class="info-card">
-                        <p>Primary Stack Target</p>
-                        <h4>Next.js & Node.js</h4>
-                    </div>
-                    <div class="info-card">
-                        <p>Fields of Interest</p>
-                        <h4>AI / ML Systems</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="activities" class="container">
-            <div class="section-heading">
-                <h2>Current Activities</h2>
-                <p>Active projects, dynamic fields of study, and code architecture targets.</p>
-            </div>
-            <div class="activities-grid">
-                <div class="glass-panel activity-card">
-                    <div class="icon-box"><i class="fa-solid fa-layer-group"></i></div>
-                    <h3>Next.js Development</h3>
-                    <p>Building atomic UI modularity alongside asynchronous server actions and structural dynamic routing layers.</p>
-                </div>
-                <div class="glass-panel activity-card">
-                    <div class="icon-box"><i class="fa-solid fa-code-branch"></i></div>
-                    <h3>Full-Stack MERN</h3>
-                    <p>Structuring scalable databases via MongoDB and decoupling secure transaction paths via Express frameworks.</p>
-                </div>
-                <div class="glass-panel activity-card">
-                    <div class="icon-box"><i class="fa-solid fa-terminal"></i></div>
-                    <h3>Developer Webspace</h3>
-                    <p>Engineering a modern web environment platform engineered to streamline development control logs.</p>
-                </div>
-                <div class="glass-panel activity-card">
-                    <div class="icon-box"><i class="fa-solid fa-microchip"></i></div>
-                    <h3>AI & ML Research</h3>
-                    <p>Synthesizing computational frameworks to build advanced models for educational infrastructure upgrades.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="container">
-            <div class="section-heading">
-                <h2>Technical Stack</h2>
-                <p>Languages, environments, toolsets, and components I regularly implement.</p>
-            </div>
-            <div class="skills-stack">
-                <div class="glass-panel skill-group">
-                    <h3>Frontend Stack</h3>
-                    <div class="badge-container">
-                        <span class="badge"><i class="fa-brands fa-html5 color-html"></i> HTML5</span>
-                        <span class="badge"><i class="fa-brands fa-css3-alt color-css"></i> CSS3</span>
-                        <span class="badge"><i class="fa-brands fa-js color-js"></i> JavaScript</span>
-                        <span class="badge"><i class="fa-brands fa-react color-react"></i> React</span>
-                        <span class="badge"><i class="fa-solid fa-cube color-next"></i> Next.js</span>
-                        <span class="badge"><i class="fa-solid fa-wind color-tailwind"></i> Tailwind CSS</span>
-                    </div>
-                </div>
-                <div class="glass-panel skill-group">
-                    <h3>Backend & Core</h3>
-                    <div class="badge-container">
-                        <span class="badge"><i class="fa-brands fa-node-js color-node"></i> Node.js</span>
-                        <span class="badge"><i class="fa-solid fa-server"></i> Express.js</span>
-                        <span class="badge"><i class="fa-solid fa-database color-mongo"></i> MongoDB</span>
-                        <span class="badge"><i class="fa-brands fa-python color-python"></i> Python</span>
+                    <div class="metric-card">
+                        <span class="metric-accent"><i class="fa-solid fa-brain"></i></span>
+                        <h4>Academic Research</h4>
+                        <p>Looking into how machine learning models can make educational systems more engaging.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="resume" class="container">
-            <div class="section-heading">
-                <h2>Education Timeline</h2>
+        <section id="projects" class="container section-padding">
+            <div class="section-header-centered">
+                <span class="section-tagline">My Side Projects</span>
+                <h2 class="section-title">Things I've <em>put together</em></h2>
+                <p class="section-desc">These are some of the applications I've built while practicing my development skills. Each one taught me something brand new.</p>
             </div>
-            <div class="timeline">
-                <div class="glass-panel timeline-item">
-                    <div class="time-meta">
-                        <h3>B.Sc. in Computer Science & Engineering</h3>
-                        <span class="date-tag">2022 - 2027</span>
+
+            <div class="projects-grid-system">
+                <article class="content-panel project-card-component">
+                    <div class="card-pill">Learning Project</div>
+                    <div class="project-info-stack">
+                        <h3 class="project-heading-text">ArtHub</h3>
+                        <p class="project-body-text">
+                            A platform I put together for artists to share and display their work. Building this taught me a lot about responsive grids and handling layouts when dealing with visual content.
+                        </p>
+                        <div class="tech-tag-row">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Muna-Rahman/ArtHubclient.git" target="_blank" class="project-link-btn">
+                                <i class="fa-brands fa-github"></i> View Code
+                            </a>
+                            <a href="https://arthub-mauve.vercel.app/" target="_blank" class="project-link-btn live-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site
+                            </a>
+                        </div>
                     </div>
-                    <p class="institution">Metropolitan University</p>
-                    <p class="card-text">Building deep familiarity in programmatic methodologies, analytical algorithms, database systems, and interactive interface optimization schemes.</p>
+                </article>
+
+                <article class="content-panel project-card-component">
+                    <div class="card-pill">E-Commerce Practice</div>
+                    <div class="project-info-stack">
+                        <h3 class="project-heading-text">SunCart</h3>
+                        <p class="project-body-text">
+                            An e-commerce storefront I built to test myself on frontend state management. I used it to practice building functional shopping carts, dynamic quantity counters, and clean layouts.
+                        </p>
+                        <div class="tech-tag-row">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">DaisyUI</span>
+                            <span class="tech-tag">CSS Grid</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Muna-Rahman/SunCart.git" target="_blank" class="project-link-btn">
+                                <i class="fa-brands fa-github"></i> View Code
+                            </a>
+                            <a href="https://sun-cart-one.vercel.app/" target="_blank" class="project-link-btn live-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="content-panel project-card-component">
+                    <div class="card-pill">Workspace Experiment</div>
+                    <div class="project-info-stack">
+                        <h3 class="project-heading-text">keenKeep</h3>
+                        <p class="project-body-text">
+                            A minimal web app I created to store daily logs and small notes. This project was a great excuse to experiment with React Hooks and explore basic PostgreSQL data connections.
+                        </p>
+                        <div class="tech-tag-row">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">React Hooks</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Muna-Rahman/keenKeep.git" target="_blank" class="project-link-btn">
+                                <i class="fa-brands fa-github"></i> View Code
+                            </a>
+                            <a href="https://keen-keep-orpin.vercel.app/" target="_blank" class="project-link-btn live-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="container section-padding">
+            <div class="section-header-centered">
+                <span class="section-tagline">My Stack</span>
+                <h2 class="section-title">What I've been <em>working with</em></h2>
+            </div>
+            <div class="skills-grid-wrapper">
+                <div class="content-panel skill-category-card">
+                    <h3>Frontend Basics &amp; Frameworks</h3>
+                    <div class="skill-tags-pool">
+                        <span class="skill-token"><i class="fa-brands fa-html5"></i> HTML5</span>
+                        <span class="skill-token"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                        <span class="skill-token"><i class="fa-brands fa-js"></i> JavaScript</span>
+                        <span class="skill-token"><i class="fa-brands fa-react"></i> React.js</span>
+                        <span class="skill-token"><i class="fa-solid fa-cube"></i> Next.js</span>
+                        <span class="skill-token"><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
+                        <span class="skill-token"><i class="fa-solid fa-wand-magic-sparkles"></i> DaisyUI</span>
+                    </div>
                 </div>
-                <div class="glass-panel timeline-item">
-                    <div class="time-meta">
-                        <h3>Higher Secondary Certificate</h3>
-                        <span class="date-tag">2020 - 2022</span>
+                <div class="content-panel skill-category-card">
+                    <h3>Backend &amp; Logic Tools</h3>
+                    <div class="skill-tags-pool">
+                        <span class="skill-token"><i class="fa-brands fa-node-js"></i> Node.js</span>
+                        <span class="skill-token"><i class="fa-solid fa-server"></i> Express.js</span>
+                        <span class="skill-token"><i class="fa-solid fa-database"></i> MongoDB</span>
+                        <span class="skill-token"><i class="fa-brands fa-python"></i> Python</span>
+                        <span class="skill-token"><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub</span>
                     </div>
-                    <p class="institution">Sylhet Govt Women's College</p>
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer id="connect">
-        <div class="container footer-wrapper">
-            <div class="contact-left">
-                <h2>Let's Connect 🌐</h2>
-                <p>I'm open to discussing MERN architecture setups, performance testing loops, or cross-platform web features. Reach out via any channel!</p>
-                <div class="social-strip">
-                    <a href="https://github.com/Muna-Rahman" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://linkedin.com/in/muna-rahman-chowdhury-5961a3378" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="mailto:moonarahman2003@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <div class="container footer-layout-split">
+            <div class="footer-left-meta">
+                <h2>Let's connect and <em>chat</em>!</h2>
+                <p class="footer-meta-description">
+                    I'm always happy to talk about full-stack web development, share notes on code architecture, or brainstorm ideas. Drop a line if you want to connect!
+                </p>
+                <div class="footer-social-bar">
+                    <a href="https://github.com/Muna-Rahman" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/muna-rahman-chowdhury-5961a3378" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:moonarahman2003@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
                 </div>
             </div>
-            <div class="contact-right">
-                <form>
-                    <h2>Message Me</h2>
-                    <input type="text" placeholder="Name" required>
-                    <input type="email" placeholder="Email Address" required>
-                    <textarea rows="5" placeholder="Write your message details..." required></textarea>
-                    <button class="btn btn-primary" type="submit">Send Message</button>
+            <div class="footer-right-form">
+                <form class="content-panel interaction-form">
+                    <h3>Leave a Message</h3>
+                    <div class="form-input-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-input-group">
+                        <input type="email" placeholder="Your Email Address" required>
+                    </div>
+                    <div class="form-input-group">
+                        <textarea rows="4" placeholder="What's on your mind?..." required></textarea>
+                    </div>
+                    <button type="submit" class="action-btn-primary full-width-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
                 </form>
             </div>
+        </div>
+        <div class="container signature-row">
+            <p>&copy; 2026 Mahbuba Rahman Chowdhury Muna. Hand-built with valid semantic layouts.</p>
         </div>
     </footer>
 
