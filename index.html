@@ -3,238 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muna Rahman | Full Stack Portfolio</title>
+    <title>Muna Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body class="portfolio-root">
-
-    <div class="ambient-wave"></div>
-
-    <header class="navbar-wrapper">
-        <nav class="nav-container container">
-            <div class="nav-logo">
-                <a href="#">Muna<span class="accent-dot">.</span></a>
+<body class="font-arimo"> 
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>M<span class="color-red">u</span>na</h2>
             </div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#connect">Connect</a></li>
+            <ul class="menu">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><button class="btn">Hire me</button></li>
             </ul>
-            <div class="nav-action">
-                <a href="#connect" class="action-btn-primary">Let's Talk</a>
-            </div>
         </nav>
+        <section id="banner">
+            <div class="banner-content">
+                <h2>Hi, I am</h2>
+                <h1>Mahbuba Rahman</h1>
+                <p>Nothing is impossible if you set your mind on something</p>
+                <div>
+                    <button class="btn">Download CV</button>
+                    <button class="btn">Contact</button>
+                </div>
+            </div>
+            <div class="banner-image">
+            <img src="images/Untitled_design__2_-removebg-preview.png" alt="">
+            </div>
+        </section>
     </header>
-
-    <section class="hero-section container">
-        <div class="hero-content">
-            <div class="status-badge">
-                <span class="pulse-indicator"></span> Always learning &amp; coding
-            </div>
-            <h1 class="hero-title">
-                Hi, I'm Muna. <br>
-                I build things and <em>learn as I go.</em>
-            </h1>
-            <p class="hero-subtitle">
-                CSE Undergraduate &bull; Full Stack Learner &bull; AI Research Enthusiast
-            </p>
-            <p class="hero-description">
-                I'm a Computer Science student who loves trying out new technologies. Most of my projects are hands-on experiments where I break things, fix them, and figure out how the MERN stack and machine learning fit together.
-            </p>
-            <div class="hero-buttons">
-                <a href="#projects" class="action-btn-primary">See what I've built</a>
-                <a href="#about" class="action-btn-secondary">My journey</a>
-            </div>
-        </div>
-        <div class="hero-avatar-area">
-            <div class="avatar-backing">
-                <img src="images/Untitled_design__2_-removebg-preview.png" alt="Muna Rahman" class="avatar-image">
-            </div>
-        </div>
-    </section>
-
-    <main>
-        
-        <section id="about" class="container section-padding">
-            <div class="content-panel about-grid">
-                <div class="about-summary">
-                    <span class="section-tagline">My Journey</span>
-                    <h2 class="section-title">A bit about <em>how I started</em></h2>
-                    <p class="about-text">
-                        I am currently studying Computer Science &amp; Engineering. For me, programming isn't just about passing courses—it's about the excitement of taking a random idea from my head and making it actually work on a screen. Every project is a new puzzle.
-                    </p>
-                    <p class="about-text">
-                        Right now, I am spending a lot of my time diving into React patterns and figuring out backend integrations with Next.js. I'm definitely still learning, but with every bug I encounter and resolve, my code gets a little cleaner and my apps get a little smoother.
-                    </p>
-                </div>
-                <div class="about-metrics">
-                    <div class="metric-card">
-                        <span class="metric-accent"><i class="fa-solid fa-code"></i></span>
-                        <h4>Full-Stack Practice</h4>
-                        <p>Figuring out client-server connections using React, Node.js, and MongoDB databases.</p>
-                    </div>
-                    <div class="metric-card">
-                        <span class="metric-accent"><i class="fa-solid fa-brain"></i></span>
-                        <h4>Academic Research</h4>
-                        <p>Looking into how machine learning models can make educational systems more engaging.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="container section-padding">
-            <div class="section-header-centered">
-                <span class="section-tagline">My Side Projects</span>
-                <h2 class="section-title">Things I've <em>put together</em></h2>
-                <p class="section-desc">These are some of the applications I've built while practicing my development skills. Each one taught me something brand new.</p>
-            </div>
-
-            <div class="projects-grid-system">
-                <article class="content-panel project-card-component">
-                    <div class="card-pill">Learning Project</div>
-                    <div class="project-info-stack">
-                        <h3 class="project-heading-text">ArtHub</h3>
-                        <p class="project-body-text">
-                            A platform I put together for artists to share and display their work. Building this taught me a lot about responsive grids and handling layouts when dealing with visual content.
-                        </p>
-                        <div class="tech-tag-row">
-                            <span class="tech-tag">React.js</span>
-                            <span class="tech-tag">Tailwind CSS</span>
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">Express</span>
-                        </div>
-                        <div class="project-action-row">
-                            <a href="https://github.com/Muna-Rahman/ArtHubclient.git" target="_blank" class="project-link-btn">
-                                <i class="fa-brands fa-github"></i> View Code
-                            </a>
-                            <a href="https://arthub-mauve.vercel.app/" target="_blank" class="project-link-btn live-link">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="content-panel project-card-component">
-                    <div class="card-pill">E-Commerce Practice</div>
-                    <div class="project-info-stack">
-                        <h3 class="project-heading-text">SunCart</h3>
-                        <p class="project-body-text">
-                            An e-commerce storefront I built to test myself on frontend state management. I used it to practice building functional shopping carts, dynamic quantity counters, and clean layouts.
-                        </p>
-                        <div class="tech-tag-row">
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">MongoDB</span>
-                            <span class="tech-tag">DaisyUI</span>
-                            <span class="tech-tag">CSS Grid</span>
-                        </div>
-                        <div class="project-action-row">
-                            <a href="https://github.com/Muna-Rahman/SunCart.git" target="_blank" class="project-link-btn">
-                                <i class="fa-brands fa-github"></i> View Code
-                            </a>
-                            <a href="https://sun-cart-one.vercel.app/" target="_blank" class="project-link-btn live-link">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="content-panel project-card-component">
-                    <div class="card-pill">Workspace Experiment</div>
-                    <div class="project-info-stack">
-                        <h3 class="project-heading-text">keenKeep</h3>
-                        <p class="project-body-text">
-                            A minimal web app I created to store daily logs and small notes. This project was a great excuse to experiment with React Hooks and explore basic PostgreSQL data connections.
-                        </p>
-                        <div class="tech-tag-row">
-                            <span class="tech-tag">Next.js</span>
-                            <span class="tech-tag">React Hooks</span>
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">PostgreSQL</span>
-                        </div>
-                        <div class="project-action-row">
-                            <a href="https://github.com/Muna-Rahman/keenKeep.git" target="_blank" class="project-link-btn">
-                                <i class="fa-brands fa-github"></i> View Code
-                            </a>
-                            <a href="https://keen-keep-orpin.vercel.app/" target="_blank" class="project-link-btn live-link">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site
-                            </a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section id="skills" class="container section-padding">
-            <div class="section-header-centered">
-                <span class="section-tagline">My Stack</span>
-                <h2 class="section-title">What I've been <em>working with</em></h2>
-            </div>
-            <div class="skills-grid-wrapper">
-                <div class="content-panel skill-category-card">
-                    <h3>Frontend Basics &amp; Frameworks</h3>
-                    <div class="skill-tags-pool">
-                        <span class="skill-token"><i class="fa-brands fa-html5"></i> HTML5</span>
-                        <span class="skill-token"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
-                        <span class="skill-token"><i class="fa-brands fa-js"></i> JavaScript</span>
-                        <span class="skill-token"><i class="fa-brands fa-react"></i> React.js</span>
-                        <span class="skill-token"><i class="fa-solid fa-cube"></i> Next.js</span>
-                        <span class="skill-token"><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
-                        <span class="skill-token"><i class="fa-solid fa-wand-magic-sparkles"></i> DaisyUI</span>
-                    </div>
-                </div>
-                <div class="content-panel skill-category-card">
-                    <h3>Backend &amp; Logic Tools</h3>
-                    <div class="skill-tags-pool">
-                        <span class="skill-token"><i class="fa-brands fa-node-js"></i> Node.js</span>
-                        <span class="skill-token"><i class="fa-solid fa-server"></i> Express.js</span>
-                        <span class="skill-token"><i class="fa-solid fa-database"></i> MongoDB</span>
-                        <span class="skill-token"><i class="fa-brands fa-python"></i> Python</span>
-                        <span class="skill-token"><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer id="connect">
-        <div class="container footer-layout-split">
-            <div class="footer-left-meta">
-                <h2>Let's connect and <em>chat</em>!</h2>
-                <p class="footer-meta-description">
-                    I'm always happy to talk about full-stack web development, share notes on code architecture, or brainstorm ideas. Drop a line if you want to connect!
-                </p>
-                <div class="footer-social-bar">
-                    <a href="https://github.com/Muna-Rahman" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://linkedin.com/in/muna-rahman-chowdhury-5961a3378" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="mailto:moonarahman2003@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-                </div>
-            </div>
-            <div class="footer-right-form">
-                <form class="content-panel interaction-form">
-                    <h3>Leave a Message</h3>
-                    <div class="form-input-group">
-                        <input type="text" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-input-group">
-                        <input type="email" placeholder="Your Email Address" required>
-                    </div>
-                    <div class="form-input-group">
-                        <textarea rows="4" placeholder="What's on your mind?..." required></textarea>
-                    </div>
-                    <button type="submit" class="action-btn-primary full-width-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
-                </form>
-            </div>
-        </div>
-        <div class="container signature-row">
-            <p>&copy; 2026 Mahbuba Rahman Chowdhury Muna. Hand-built with valid semantic layouts.</p>
-        </div>
-    </footer>
-
 </body>
 </html>
